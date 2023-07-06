@@ -3,3 +3,21 @@
     padding: 0px;
     
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.box{
+    padding: 20px;
+    background-color: hotpink;
+    width: 120px;
+
+}
+.box2{
+    background-color: rgb(50, 133, 206);
+}
+.box3{
+    background-color: rgb(164, 216, 20);
+}
