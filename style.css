@@ -1,7 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
-
+}
+header{
+    padding-bottom: 0px;
 }
 .menu-bar{
     background-color: rgb(73, 70, 70);
@@ -11,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    margin: 0px;
 }
 .logo{
     width: 120px;
@@ -39,7 +41,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 .photo{
     width: 300px;
@@ -64,4 +66,25 @@
 .button:hover{
     color: blue;
     background-color: aqua;
+}
+.about-container{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-title{
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500px;
+    font-size: 45px;
+}
+.about-text h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.about-text p{
+    padding: 5px 0px;
 }
