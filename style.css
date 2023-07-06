@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+    /* this is a navbar section */
 header{
     padding-bottom: 0px;
 }
@@ -30,6 +31,7 @@ header{
 .item:hover{
     color: blue;
 }
+    /* this is a bennar section */
 .banner-container{
     display: flex;
     justify-content: space-around;
@@ -73,6 +75,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+    /* this is a about section */
 .about-title{
     color: black;
     padding-top: 20px;
@@ -88,6 +91,7 @@ header{
 .about-text p{
     padding: 5px 0px;
 }
+    /* this is a service section */
 .service{
     display: flex;
     justify-content: space-around;
@@ -141,4 +145,56 @@ header{
 }
 .button1:hover{
     background-color: #161410;
+}
+    /* this is a footer section */
+footer{
+    background-color: black;
+    padding: 30px 100px;
+    height: 300px;
+
+}
+.footer-1{
+    width: 210px;
+    height: 240px;
+    padding: 0px 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer-1 img{
+    width: 120px;
+    padding-bottom: 10px;
+}
+.footer-1 p{
+    color: wheat;
+    
+}
+
+.footer-section{
+    display: flex;
+    color: wheat;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-1 a{
+    text-decoration: none;
+    color: wheat;
+    
+}
+.footer-1 h4{
+    padding-bottom:20px ;
+    font-size: 20px;
+}
+.pac{
+    padding-bottom: 20px;
+}
+.footer-2 a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.footer-2{
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
 }
